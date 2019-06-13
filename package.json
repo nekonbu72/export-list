@@ -16,12 +16,19 @@
   "eslintConfig": {
     "root": true,
     "env": {
-      "browser": true
+      "browser": true,
+      "es6": true
     },
     "extends": [
       "eslint:recommended"
     ],
-    "rules": {}
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "ecmaVersion": 2019,
+      "sourceType": "module"
+    }
   },
   "dependencies": {
     "xlsx": "^0.14.3"
