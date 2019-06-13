@@ -3,9 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <title>export-list</title>
+    <link rel="stylesheet" href="./index.css" />
     <script src="./index.js" defer></script>
   </head>
   <body>
-    <button id="myButton">exe</button>
+    <form id="myForm">
+      <p class="caption">year/month/day</p>
+      <input
+        id="myDate"
+        type="date"
+        min="2000-01-01"
+        max="2030-12-31"
+        value="2000-01-01"
+        required
+      />
+      <p></p>
+      <input type="submit" id="myInput" value="GO!" />
+    </form>
   </body>
 </html>

@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "parcel": "^1.12.3"
   },
@@ -22,10 +21,7 @@
     "extends": [
       "eslint:recommended"
     ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "babel-eslint"
-    }
+    "rules": {}
   },
   "dependencies": {
     "xlsx": "^0.14.3"
