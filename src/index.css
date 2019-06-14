@@ -6,6 +6,10 @@ input[type="date"] {
   font-size: 150%;
 }
 
+input[type="submit"] {
+  font-size: 150%;
+}
+
 .caption {
-  font-size: 125%;
+  font-size: 150%;
 }
