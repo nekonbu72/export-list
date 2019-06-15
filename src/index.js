@@ -26,9 +26,9 @@ const today = new Date(),
       month = myDateElm.value.slice(5, 7),
       day = myDateElm.value.slice(8, 10);
 
-    const mydate = new Date(year, month, day);
-    mydate.setDate(today.getDate() + 1);
-    const day2 = myDateGet(mydate.getDate());
+    const myDate = new Date(year, month, day);
+    myDate.setDate(myDate.getDate() + 1);
+    const day2 = myDateGet(myDate.getDate());
 
     fetch(
       `http://localhost:5050/ping?since=${year}${month}${day}JST&before=${year}${month}${day2}JST`
